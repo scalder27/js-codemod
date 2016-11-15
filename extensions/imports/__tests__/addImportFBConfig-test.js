@@ -15,7 +15,7 @@ const DEFAULT_RECAST_CONFIG = {
 
 function test(inputCollection, output) {
   expect(
-    (inputCollection.toSource(DEFAULT_RECAST_CONFIG) || '').trim()
+    (inputCollection.toSource(DEFAULT_RECAST_CONFIG) || '').replace(/\r\n/g, '\n').trim()
   ).toEqual(
     (output || '').trim()
   );

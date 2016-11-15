@@ -9,7 +9,7 @@
     "url": "https://github.com/cpojer/js-codemod.git"
   },
   "scripts": {
-    "test": "f() { EXIT=0; npm run lint || EXIT=$?; jest $@ || EXIT=$?; exit $EXIT; }; f",
+    "test": "jest",
     "lint": "eslint ."
   },
   "keywords": [
