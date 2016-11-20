@@ -40,4 +40,4 @@ module.exports = function(file, api, options) {
     trailingComma: true,
     wrapColumn: 1, // Makes sure we write each values on a separate line.
   }));
-}
+};

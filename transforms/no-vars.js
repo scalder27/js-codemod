@@ -229,4 +229,4 @@ module.exports = function(file, api) {
     }
   }).size() !== 0;
   return updatedAnything ? root.toSource() : null;
-}
+};
