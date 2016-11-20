@@ -17,7 +17,9 @@
     "recast"
   ],
   "dependencies": {
+    "babel-types": "^6.19.0",
     "jscodeshift": "^0.3.20",
+    "lodash": "^4.17.2",
     "nuclide-format-js": "0.0.36"
   },
   "devDependencies": {
